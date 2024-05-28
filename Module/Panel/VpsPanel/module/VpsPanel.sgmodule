@@ -1,10 +1,11 @@
 #!name=CatVPS
 #!desc= 监控 VPS 流量信息和处理器、内存占用情况
-#!author= 面板和脚本部分 @wuhu_zzz VPS 端部分 @ATRI0828 由 @整点猫咪 进行整理
-#!howto= 将模块内容复制到本地后根据自己 VPS IP 地址及端口修改 http://127.0.0.1:49155/traffic 部分进行使用 ddl= 后面接你的 VPS 到期时间，total= 输入你的 VPS 每月流量数目
+#!author= 面板和脚本部分 @Sestea @clydetime  VPS 端部分 @Sestea 由 @整点猫咪 进行整理
+#!howto= 将模块内容复制到本地后根据自己 VPS IP 地址及端口修改 http://127.0.0.1:7122 
  
 [Panel]
-Cat VPS = script-name=CatVPS
+Serverinfo = script-name= Serverinfo,update-interval=3600
  
 [Script]
-CatVPS = type=generic,script-path=https://raw.githubusercontent.com/pitey520/mysurge/main/Module/Panel/VpsPanel/script/VpsPanel.js, argument = url=http://rn2.pitey520.cf:49155/traffic&title=RN2 VPS&icon=bolt.horizontal.icloud.fill&low=#06D6A0&mid=#FFD166&high=#EF476F&ddl=2024-12-07&total=4.9TB
+Serverinfo = type=generic,script-path=https://raw.githubusercontent.com/pitey520/mysurge/main/Module/Panel/VpsPanel/script/VpsPanel.js, argument = url=http://rn.pitey520.cf:7122&name=Rn VPS&icon=party.popper
+
