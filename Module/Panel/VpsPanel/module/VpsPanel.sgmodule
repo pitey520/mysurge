@@ -7,4 +7,4 @@
 Cat VPS = script-name=CatVPS
  
 [Script]
-CatVPS = type=generic,script-path=https://raw.githubusercontent.com/pitey520/mysurge/main/Module/Panel/VpsPanel/script/VpsPanel.js, argument = url=http://rn2.pitey520.cf:49155/traffic&title=Cat VPS&icon=bolt.horizontal.icloud.fill&low=#06D6A0&mid=#FFD166&high=#EF476F&ddl=2100-01-01&total=10TB
+CatVPS = type=generic,script-path=https://raw.githubusercontent.com/pitey520/mysurge/main/Module/Panel/VpsPanel/script/VpsPanel.js, argument = url=http://rn2.pitey520.cf:49155/traffic&title=RN2 VPS&icon=bolt.horizontal.icloud.fill&low=#06D6A0&mid=#FFD166&high=#EF476F&ddl=2024-12-07&total=4.9TB
